@@ -8,10 +8,9 @@
 1. Fonts
 2. Body and some general stuff
 3. Header
-	3.1 Top Bar
-	3.2 Logo
-	3.3 Main Nav
-	3.4 Menu
+	3.1 Logo
+	3.2 Main Nav
+	3.3 Menu
 4. Home
 	4.1 Home Slider
 	4.2 Home Slider Nav
@@ -398,7 +397,7 @@ section {
 .logo a img {
   display: inline-block;
   vertical-align: baseline;
-  margin-right: 9px;
+  margin-left: 120px;
   -webkit-transform: translateY(2px);
   -moz-transform: translateY(2px);
   -ms-transform: translateY(2px);
@@ -422,13 +421,18 @@ section {
   margin-right: 0px;
 }
 .main_nav_item a {
-  font-family: "Open Sans", sans-serif;
-  font-size: 13px;
-  font-weight: 600;
-  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #f0e6bd;
   text-transform: uppercase;
   padding-bottom: 10px;
   padding-top: 10px;
+}
+
+.main_nav_item:hover a {
+  color: white;
+  border-bottom: #f0e6bd 1px solid;
 }
 .main_nav_item::after {
   display: block;
@@ -437,7 +441,6 @@ section {
   bottom: -11px;
   width: calc(100% + 2px);
   height: 2px;
-  background: linear-gradient(to right, #fa9e1b, #8d4fff);
   content: "";
   opacity: 0;
   -webkit-transition: all 200ms ease;
@@ -475,8 +478,11 @@ section {
   width: 17px;
   height: 17px;
 }
+.content_search svg {
+  vertical-align: baseline;
+}
 .content_search:hover .mag_glass {
-  fill: #fa9e1c;
+  fill: #000000;
 }
 .search_form {
   position: absolute;
@@ -536,13 +542,13 @@ section {
   color: #ffffff;
 }
 .hamburger:hover i {
-  color: #fa9e1c;
+  color: darkblue;
 }
 .menu {
   position: fixed;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to right, #fa9e1b, #8d4fff);
+  background: linear-gradient(to right, #311bfa, #4fb9ff);
   z-index: 100;
   opacity: 0;
   visibility: hidden;
@@ -573,7 +579,7 @@ section {
   position: relative;
   font-family: "Beyond";
   font-size: 36px;
-  color: #ffffff;
+  color: #f0e6bd;
   font-weight: 400;
 }
 .menu_item a::after {
@@ -638,7 +644,7 @@ section {
 }
 .menu_close_container:hover .menu_close,
 .menu_close_container:hover .menu_close::after {
-  background: #fa9e1c;
+  background: darkblue;
 }
 
 /*********************************
@@ -680,7 +686,7 @@ section {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  opacity: 0.5;
+  opacity: 0.6;
 }
 .home_slider_content {
   position: absolute;
@@ -701,11 +707,12 @@ section {
   font-weight: 900;
   color: #ffffff;
   text-transform: uppercase;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 .home_slider_content h1:nth-child(2) {
   font-family: "Beyond";
   font-size: 100px;
-  color: #ffffff;
+  color: #f0e6bd;
   margin-top: -34px;
 }
 .home_slider_button {
@@ -773,10 +780,10 @@ section {
   transition: all 200ms ease;
 }
 .home_slider_custom_dot:hover {
-  color: #fa9e1c;
+  color: darkblue;
 }
 .home_slider_custom_dot:hover.active div {
-  border-color: #fa9e1c;
+  border-color: darkblue;
 }
 .home_slider_custom_dot.active {
   padding-left: 13px;
@@ -1936,6 +1943,9 @@ section {
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
+}
+.footer_nav_item a:hover {
+  color: #ffffff;
 }
 .footer_nav_item a:hover {
   color: #ffffff;
