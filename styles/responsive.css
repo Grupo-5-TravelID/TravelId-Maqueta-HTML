@@ -356,6 +356,11 @@
 	{
 		display: none !important;
 	}
+
+	.main_nav{ 
+		height: 80px;
+	}
+
 	.main_nav_col
 	{
 		height: 60px;
@@ -402,7 +407,8 @@
 	}
 	.logo a img
 	{
-		width: 16px;
+		margin-left: 7px ;
+		width: 200px;
 		margin-right: 7px;
 	}
 	.hamburger i
@@ -577,3 +583,4 @@
 {
 	
 }
+
