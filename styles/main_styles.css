@@ -274,6 +274,7 @@ section
 	font-weight: 700;
 	color: #fff;
 	text-transform: uppercase;
+	font-family: Georgia, 'Times New Roman', Times, serif;
 	line-height: 53px;
 	padding-left: 46px;
 	padding-right: 46px;
@@ -568,7 +569,7 @@ section
 	padding-left: 20px;
 	outline: none !important;
 	border: none !important;
-	box-shadow: 0px 8px 20px darkblue;
+	box-shadow: 0px 1px 10px;
 }
 .bez_1
 {
@@ -609,7 +610,7 @@ section
 }
 .hamburger:hover i
 {
-	color: darkblue;
+	color: rgb(0, 0, 0);
 }
 .menu
 {
