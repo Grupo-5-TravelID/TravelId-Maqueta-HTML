@@ -29,7 +29,11 @@
 	11.4 Footer - Contact Info
 12. Copyright
 
-
+/*********************************
+Color degradado
+#1bebfa, #210a87, #1bebfa
+ rgb(13, 64, 105)
+*********************************/
 ******************************/
 
 /***********
@@ -248,12 +252,16 @@ section
 }
 .button_bcg
 {
+/*********************************
+#1bebfa, #210a87, #1bebfa
+*********************************/
+
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 200%;
 	height: 100%;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+	background: linear-gradient(to right, #1bebfa, #210a87, #1bebfa);
 	z-index: -1;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
@@ -315,12 +323,12 @@ section
 {
 	position: fixed;
 	width: 100%;
-	background: rgba(54, 19, 84, 0.6);
+	background: rgba(12, 58, 95, 0.6);
 	z-index: 12;
 }
 .header.scrolled
 {
-	background: rgba(54, 19, 84, 0.85);
+	background:rgba(12, 58, 95, 0.6);
 }
 
 /*********************************
@@ -331,7 +339,7 @@ section
 {
 	width: 100%;
 	height: 36px;
-	background: #350a4e;
+	background: rgba(12, 58, 95, 0.6);
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -511,7 +519,7 @@ section
 	bottom: -11px;
 	width: calc(100% + 2px);
 	height: 2px;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #1bebfa, #210a87);
 	content: '';
 	opacity: 0;
 	-webkit-transition: all 200ms ease;
@@ -635,7 +643,7 @@ section
 	position: fixed;
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(to right, #fa9e1b, #8d4fff);
+	background: linear-gradient(to right, #1bebfa, #210a87);
 	z-index: 100;
 	opacity: 0;
 	visibility: hidden;
@@ -1112,7 +1120,7 @@ section
 	width: 100%;
 	padding-top: 113px;
 	padding-bottom: 104px;
-	background: #31124b;
+	background: rgb(13, 64, 105);
 }
 .footer_title
 {
@@ -1147,7 +1155,7 @@ section
 	display: inline-block;
 	width: 31px;
 	height: 31px;
-	border: solid 1px #fa9e1b;
+	border: solid 1px rgb(13, 64, 105);
 	border-radius: 50%;
 	text-align: center;
 	-webkit-transition: all 200ms ease;
@@ -1188,11 +1196,11 @@ section
 }
 .footer_social_item:hover
 {
-	background: #fa9e1b;
+	background: rgb(13, 64, 105);
 }
 .footer_social_item:hover a i
 {
-	color: #31124b;
+	color:rgb(13, 64, 105);
 }
 
 /*********************************
@@ -1238,13 +1246,13 @@ section
 }
 .footer_blog_title a:hover
 {
-	color: #fa9e1b;
+	color:rgb(13, 64, 105);
 }
 .footer_blog_date
 {
 	font-size: 12px;
 	font-weight: 400;
-	color: #fa9e1b;
+	color: rgb(13, 64, 105);
 	margin-top: 7px;
 }
 
