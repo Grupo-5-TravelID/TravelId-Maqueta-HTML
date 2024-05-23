@@ -394,9 +394,6 @@ section {
   -o-transition: all 400ms ease;
   transition: all 400ms ease;
 }
-.header.scrolled .main_nav_col {
-  height: 100px;
-}
 
 /*********************************
 3.2 Logo
@@ -499,9 +496,10 @@ section {
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
-.content_search img {
-  width: 17px;
-  height: 17px;
+.content_search svg {
+  width: 24px;
+  height: 24px;
+  vertical-align: 0%;
 }
 .content_search:hover .mag_glass {
   fill: #fa9e1c;
