@@ -582,10 +582,10 @@ section {
   margin-bottom: 0px;
 }
 .menu_logo {
-  margin-bottom: 28px;
+  margin-bottom: 200px;
 }
 .menu_logo a img {
-  width: 40px !important;
+  width: 200px !important;
 }
 .menu_item a {
   display: inline-block;
