@@ -414,6 +414,8 @@ section {
   -ms-transform: none;
   -o-transform: none;
   transform: none;
+  display: flex;
+  align-content: center;
 }
 .logo a {
   font-family: "Open Sans", sans-serif;
@@ -598,7 +600,7 @@ section {
   margin-bottom: 28px;
 }
 .menu_logo a img {
-  width: 40px !important;
+  width: 200px !important;
 }
 .menu_item a {
   display: inline-block;
