@@ -235,7 +235,7 @@ section {
   left: 0;
   width: 200%;
   height: 100%;
-  background: linear-gradient(to right, #fa9e1b, #8d4fff, #fa9e1b);
+  background: linear-gradient(to right, #1bebfa, #210a87, #1bebfa);
   z-index: -1;
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
@@ -289,11 +289,11 @@ section {
 .header {
   position: fixed;
   width: 100%;
-  background: rgba(54, 19, 84, 0.6);
+  background: rgba(12, 58, 95, 0.6);
   z-index: 12;
 }
 .header.scrolled {
-  background: rgba(54, 19, 84, 0.85);
+  background: rgba(12, 58, 95, 0.6);
 }
 
 /*********************************
@@ -303,7 +303,7 @@ section {
 .top_bar {
   width: 100%;
   height: 36px;
-  background: #350a4e;
+  background: rgba(12, 58, 95, 0.6);
   -webkit-transition: all 400ms ease;
   -moz-transition: all 400ms ease;
   -ms-transition: all 400ms ease;
@@ -339,7 +339,7 @@ section {
   line-height: 36px;
 }
 .social_list_item:hover a i {
-  color: #fa9e1c;
+  color: rgba(12, 58, 95, 0.6);
 }
 .social_list_item a i {
   font-size: 12px;
@@ -365,7 +365,7 @@ section {
   text-transform: uppercase;
 }
 .user_box_link a:hover {
-  color: #fa9e1c;
+  color: rgba(12, 58, 95, 0.6);
 }
 .user_box_login {
   margin-right: 15px;
@@ -387,6 +387,9 @@ section {
   -ms-transition: all 400ms ease;
   -o-transition: all 400ms ease;
   transition: all 400ms ease;
+}
+.header.scrolled .main_nav_col {
+  height: 100px;
 }
 
 /*********************************
@@ -456,7 +459,7 @@ section {
   bottom: -11px;
   width: calc(100% + 2px);
   height: 2px;
-  background: linear-gradient(to right, #fa9e1b, #8d4fff);
+  background: linear-gradient(to right, #1bebfa, #210a87, #1bebfa);
   content: "";
   opacity: 0;
   -webkit-transition: all 200ms ease;
@@ -490,16 +493,15 @@ section {
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
 }
-.content_search svg {
-  width: 24px;
-  height: 24px;
-  vertical-align: 0%;
+.content_search img {
+  width: 17px;
+  height: 17px;
 }
 .content_search:hover .mag_glass {
-  fill: #fa9e1c;
+  fill: #1bebfa;
 }
 .content_search:hover .mag_glass {
-  fill: #fa9e1c;
+  fill: #1bebfa;
 }
 .search_form {
   position: absolute;
@@ -1001,14 +1003,14 @@ section {
 }
 
 /*********************************
-6. Footer
+11. Footer
 *********************************/
 
 .footer {
   width: 100%;
   padding-top: 113px;
   padding-bottom: 104px;
-  background: #31124b;
+  background: rgb(13, 64, 105);
 }
 .footer_title {
   font-size: 15px;
@@ -1018,7 +1020,7 @@ section {
 }
 
 /*********************************
-6.1 Footer - About
+11.1 Footer - About
 *********************************/
 
 .footer_about {
@@ -1038,7 +1040,7 @@ section {
   display: inline-block;
   width: 31px;
   height: 31px;
-  border: solid 1px #fa9e1b;
+  border: solid 1px rgb(13, 64, 105);
   border-radius: 50%;
   text-align: center;
   -webkit-transition: all 200ms ease;
@@ -1075,14 +1077,14 @@ section {
   transition: all 200ms ease;
 }
 .footer_social_item:hover {
-  background: #fa9e1b;
+  background: #ffffff;
 }
 .footer_social_item:hover a i {
-  color: #31124b;
+  color: rgb(13, 64, 105);
 }
 
 /*********************************
-6.2 Footer - Blog
+11.2 Footer - Blog
 *********************************/
 
 .footer_blog {
@@ -1115,17 +1117,17 @@ section {
   color: #ffffff;
 }
 .footer_blog_title a:hover {
-  color: #fa9e1b;
+  color: #1bebfa;
 }
 .footer_blog_date {
   font-size: 12px;
   font-weight: 400;
-  color: #fa9e1b;
+  color: #1bebfa;
   margin-top: 7px;
 }
 
 /*********************************
-6.3 Footer - Tags
+11.3 Footer - Tags
 *********************************/
 
 .footer_tags {
@@ -1136,7 +1138,7 @@ section {
   float: left;
   margin-right: 9px;
   margin-bottom: 9px;
-  border: solid 1px #fa9e1b;
+  border: solid 1px #1bebfa;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -1144,7 +1146,7 @@ section {
   transition: all 200ms ease;
 }
 .tag_item:hover {
-  background: #fa9e1b;
+  background: rgb(13, 64, 105);
 }
 .tag_item a {
   display: block;
@@ -1157,7 +1159,7 @@ section {
 }
 
 /*********************************
-6.4 Footer - Contact Info
+11.4 Footer - Contact Info
 *********************************/
 
 .contact_info_list {
@@ -1183,15 +1185,15 @@ section {
 }
 .contact_info_item:hover .contact_info_text,
 .contact_info_item:hover .contact_info_text a {
-  color: #fa9e1b;
+  color: #1bebfa;
 }
 
 /*********************************
-7. Copyright
+12. Copyright
 *********************************/
 
 .copyright {
-  background: #1f0733;
+  background: rgb(13, 64, 105);
 }
 .copyright_content {
   height: 52px;
@@ -1199,7 +1201,7 @@ section {
 .copyright_content div {
   font-size: 12px;
   font-weight: 600;
-  color: #685677;
+  color: #ffffff;
 }
 .footer_nav_container {
   height: 52px;
@@ -1216,7 +1218,7 @@ section {
 .footer_nav_item a {
   font-size: 12px;
   font-weight: 600;
-  color: #685677;
+  color: #1bebfa;
   text-transform: uppercase;
   line-height: 2;
   -webkit-transition: all 200ms ease;
@@ -1226,5 +1228,8 @@ section {
   transition: all 200ms ease;
 }
 .footer_nav_item a:hover {
+  color: #ffffff;
+}
+item a:hover {
   color: #ffffff;
 }

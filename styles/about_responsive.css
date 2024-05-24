@@ -87,110 +87,139 @@
 6. 991px
 ************/
 
-@media only screen and (max-width: 991px) {
-  .main_nav_container {
-    display: none;
-  }
-  .hamburger {
-    display: block;
-  }
-  .intro {
-    padding-top: 71px;
-  }
-  .intro_image {
-    position: relative;
-    right: auto;
-    top: auto;
-  }
-  .intro_content {
-    margin-top: 30px;
-  }
-  .add_content {
-    padding-left: 71px;
-  }
-  .milestone_col {
-    margin-bottom: 60px;
-  }
-  .milestone_col:last-child {
-    margin-bottom: 0px;
-  }
-  .footer_column {
-    margin-bottom: 60px;
-  }
-  .footer_column:last-child {
-    margin-bottom: 0px;
-  }
-  .copyright {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  .copyright_content {
-    height: auto;
-    margin-top: 15px;
-  }
-  .footer_nav_container {
-    height: auto;
-  }
-  .footer_nav_item {
-    display: block;
-  }
+@media only screen and (max-width: 991px)
+{
+	.main_nav_container
+	{
+		display: none;
+	}
+	.hamburger
+	{
+		display: block;
+	}
+	.intro
+	{
+		padding-top: 71px;
+	}
+	.intro_image
+	{
+		position: relative;
+	    right: auto;
+	    top: auto;
+	}
+	.intro_content
+	{
+		margin-top: 30px;
+	}
+	.add_content
+	{
+		padding-left: 71px;
+	}
+	.milestone_col
+	{
+		margin-bottom: 60px;
+	}
+	.milestone_col:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.footer_column
+	{
+		margin-bottom: 60px;
+	}
+	.footer_column:last-child
+	{
+		margin-bottom: 0px;
+	}
+	.copyright
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.copyright_content
+	{
+		height: auto;
+		margin-top: 15px;
+	}
+	.footer_nav_container
+	{
+		height: auto;
+	}
+	.footer_nav_item
+	{
+		display: block;
+	}
 }
 
 /************
 7. 959px
 ************/
 
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 959px)
+{
+
 }
 
 /************
 8. 880px
 ************/
 
-@media only screen and (max-width: 880px) {
+@media only screen and (max-width: 880px)
+{
+
 }
 
 /************
 9. 768px
 ************/
 
-@media only screen and (max-width: 768px) {
-  .home_title {
-    font-size: 48px;
-  }
-  .stats_years {
-    padding-left: 107px;
-  }
-  .stats_years_last {
-    display: none !important;
-  }
-  .stats_years_new {
-    float: left !important;
-  }
-  .stats_bar {
-    width: 100%;
-  }
-  .stats_new {
-    padding-right: 0px;
-    padding-left: 40px;
-    width: 40px;
-    -webkit-transform: translateY(14px);
-    -moz-transform: translateY(14px);
-    -ms-transform: translateY(14px);
-    -o-transform: translateY(14px);
-    transform: translateY(15px);
-  }
-  .stats_new_icon {
-    right: auto;
-    left: 0;
-    width: 40px;
-  }
-  .stats_new_content {
-    margin-left: 10px;
-  }
-  .stats_last {
-    display: none;
-  }
+@media only screen and (max-width: 768px)
+{
+	.home_title
+	{
+		font-size: 48px;
+	}
+	.stats_years
+	{
+		padding-left: 107px;
+	}
+	.stats_years_last
+	{
+		display: none !important;
+	}
+	.stats_years_new
+	{
+		float: left !important;
+	}
+	.stats_bar
+	{
+		width: 100%;
+	}
+	.stats_new
+	{
+		padding-right: 0px;
+	    padding-left: 40px;
+	    width: 40px;
+	    -webkit-transform: translateY(14px);
+	    -moz-transform: translateY(14px);
+	    -ms-transform: translateY(14px);
+	    -o-transform: translateY(14px);
+	    transform: translateY(15px);
+	}
+	.stats_new_icon
+	{
+		right: auto;
+	    left: 0;
+	    width: 40px;
+	}
+	.stats_new_content
+	{
+		margin-left: 10px;
+	}
+	.stats_last
+	{
+		display: none;
+	}
 }
 
 /************
@@ -334,35 +363,39 @@
 11. 539px
 ************/
 
-@media only screen and (max-width: 539px) {
+@media only screen and (max-width: 539px)
+{
+
 }
 
 /************
 12. 480px
 ************/
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px)
+{
+
 }
 
 /************
 13. 479px
 ************/
 
-@media only screen and (max-width: 479px) {
-  h2 {
-    font-size: 24px;
-  }
-  p {
-    font-size: 13px;
-  }
-  .milestone_counter {
-    font-size: 36px;
-  }
+@media only screen and (max-width: 479px)
+{
+	h2{font-size: 24px;}
+	p{font-size: 13px;}
+	.milestone_counter
+	{
+		font-size: 36px;
+	}
 }
 
 /************
 14. 400px
 ************/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 400px)
+{
+
 }

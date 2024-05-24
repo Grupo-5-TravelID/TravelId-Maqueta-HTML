@@ -293,7 +293,7 @@ section {
   z-index: 12;
 }
 .header.scrolled {
-  background:rgba(12, 58, 95, 0.6);
+  background: rgb(0, 168, 168);
 }
 
 .phone {
@@ -497,15 +497,16 @@ section {
   visibility: visible;
   opacity: 1;
 }
-.search_content_input {
-  width: 100%;
-  height: 100%;
-  background: #ffffff;
-  color: #1b0b32;
-  padding-left: 20px;
-  outline: none !important;
-  border: none !important;
-  box-shadow: 0px 1px 10px;
+.search_content_input
+{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	color: #1b0b32;
+	padding-left: 20px;
+	outline: none !important;
+	border: none !important;
+	box-shadow: 0px 1px 10px;
 }
 .bez_1 {
   -webkit-transition: all 0.3s cubic-bezier(0.7, 0, 0.3, 1);
@@ -570,7 +571,11 @@ section {
   margin-bottom: 28px;
 }
 .menu_logo a img {
+<<<<<<< HEAD
   width: 200px !important;
+=======
+  width: 40px !important;
+>>>>>>> origin/SanchezPatriciaCruz1
 }
 .menu_item a {
   display: inline-block;
@@ -1725,7 +1730,7 @@ section {
   width: 100%;
   padding-top: 113px;
   padding-bottom: 104px;
-  background: #31124b;
+  background: rgb(13, 64, 105);
 }
 .footer_title {
   font-size: 15px;
@@ -1755,7 +1760,7 @@ section {
   display: inline-block;
   width: 31px;
   height: 31px;
-  border: solid 1px #fa9e1b;
+  border: solid 1px rgb(13, 64, 105);
   border-radius: 50%;
   text-align: center;
   -webkit-transition: all 200ms ease;
@@ -1792,10 +1797,10 @@ section {
   transition: all 200ms ease;
 }
 .footer_social_item:hover {
-  background: #fa9e1b;
+  background: #ffffff;
 }
 .footer_social_item:hover a i {
-  color: #31124b;
+  color: rgb(13, 64, 105);
 }
 
 /*********************************
@@ -1832,12 +1837,12 @@ section {
   color: #ffffff;
 }
 .footer_blog_title a:hover {
-  color: #fa9e1b;
+  color: #1bebfa;
 }
 .footer_blog_date {
   font-size: 12px;
   font-weight: 400;
-  color: #fa9e1b;
+  color: #1bebfa;
   margin-top: 7px;
 }
 
@@ -1853,7 +1858,11 @@ section {
   float: left;
   margin-right: 9px;
   margin-bottom: 9px;
+<<<<<<< HEAD
   border: solid 1px #fa9e1b;
+=======
+  border: solid 1px #1bebfa;
+>>>>>>> origin/SanchezPatriciaCruz1
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -1861,7 +1870,7 @@ section {
   transition: all 200ms ease;
 }
 .tag_item:hover {
-  background: #fa9e1b;
+  background: rgb(13, 64, 105);
 }
 .tag_item a {
   display: block;
@@ -1900,7 +1909,7 @@ section {
 }
 .contact_info_item:hover .contact_info_text,
 .contact_info_item:hover .contact_info_text a {
-  color: #fa9e1b;
+  color: #1bebfa;
 }
 
 /*********************************
@@ -1908,7 +1917,7 @@ section {
 *********************************/
 
 .copyright {
-  background: #1f0733;
+  background: rgb(13, 64, 105);
 }
 .copyright_content {
   height: 52px;
@@ -1916,7 +1925,7 @@ section {
 .copyright_content div {
   font-size: 12px;
   font-weight: 600;
-  color: #685677;
+  color: #ffffff;
 }
 .footer_nav_container {
   height: 52px;
@@ -1933,7 +1942,7 @@ section {
 .footer_nav_item a {
   font-size: 12px;
   font-weight: 600;
-  color: #685677;
+  color: #1bebfa;
   text-transform: uppercase;
   line-height: 2;
   -webkit-transition: all 200ms ease;
@@ -1943,5 +1952,8 @@ section {
   transition: all 200ms ease;
 }
 .footer_nav_item a:hover {
+  color: #ffffff;
+}
+item a:hover {
   color: #ffffff;
 }
