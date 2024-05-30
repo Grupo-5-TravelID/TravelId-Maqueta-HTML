@@ -60,9 +60,6 @@
   .footer_blog_content {
     padding-left: 74px;
   }
-  .about_social_item {
-    margin-right: 7px;
-  }
 }
 
 /************
@@ -90,18 +87,8 @@
   .hamburger {
     display: block;
   }
-  .about {
-    padding-bottom: 105px;
-  }
-
-  .about_image img {
-    max-width: 50vw;
-  }
-  .about_content {
-    margin-top: 20px;
-  }
-  .about_info {
-    padding-top: 90px;
+  .sidebar_col {
+    margin-top: 105px;
   }
   .footer_column {
     margin-bottom: 60px;
@@ -147,10 +134,6 @@
   .home_title {
     font-size: 48px;
   }
-  .wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 }
 
 /************
@@ -177,7 +160,6 @@
   .button {
     height: 44px;
     border-radius: 22px;
-    line-height: 44px;
   }
   .button a {
     line-height: 44px;
@@ -227,6 +209,9 @@
     width: 200px;
     margin-right: 7px;
   }
+  .footer_logo .logo a img {
+    width: 24px;
+  }
   .hamburger i {
     font-size: 20px;
   }
@@ -259,34 +244,24 @@
   .home_title {
     font-size: 24px;
   }
-  .contact_title {
+  .blog_post_date {
+    top: 15px;
+    left: 15px;
+    width: 85px;
+    height: 55px;
+  }
+  .blog_post_day {
     font-size: 24px;
   }
-  .about_content {
-    padding-top: 61px;
-    margin-top: 37px;
+  .blog_post_month {
+    font-size: 10px;
+    margin-top: 1px;
   }
-  .about_text {
-    font-size: 13px;
+  .blog_post_meta_item a {
+    font-size: 10px;
   }
-  .about_info {
-    padding-top: 70px;
-  }
-  .contact_info_text {
-    font-size: 13px;
-  }
-  .about_social_item {
-    width: 40px;
-    height: 40px;
-  }
-  .about_social_item a i {
-    font-size: 18px;
-  }
-  .google_map {
-    height: 75vh;
-  }
-  .footer_about {
-    padding-top: 47px;
+  .blog_post_title a {
+    font-size: 21px;
   }
   .footer_about_text {
     font-size: 13px;
@@ -317,10 +292,6 @@
   }
   p {
     font-size: 13px;
-  }
-  .wrapper {
-    padding-left: 15px;
-    padding-right: 15px;
   }
 }
 

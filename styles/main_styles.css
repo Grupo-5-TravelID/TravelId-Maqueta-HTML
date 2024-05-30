@@ -289,11 +289,11 @@ section {
 .header {
   position: fixed;
   width: 100%;
-  background: rgba(0, 116, 116, 0);
+  background: rgba(12, 58, 95, 0.7);
   z-index: 12;
 }
 .header.scrolled {
-  background:rgba(12, 58, 95, 0.6);
+  background: rgba(12, 58, 95, 0.9);
 }
 
 .phone {
@@ -428,6 +428,7 @@ section {
   text-transform: uppercase;
   padding-bottom: 10px;
   padding-top: 10px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 .main_nav_item:hover a {
@@ -1725,7 +1726,7 @@ section {
   width: 100%;
   padding-top: 113px;
   padding-bottom: 104px;
-  background: #31124b;
+  background: rgb(13, 64, 105);
 }
 .footer_title {
   font-size: 15px;
@@ -1739,7 +1740,7 @@ section {
 *********************************/
 
 .footer_about {
-  padding-top: 67px;
+  padding-top: 38px;
 }
 .footer_logo {
   position: absolute;
@@ -1908,7 +1909,7 @@ section {
 *********************************/
 
 .copyright {
-  background: #1f0733;
+  background: rgb(0, 24, 65);
 }
 .copyright_content {
   height: 52px;
@@ -1916,7 +1917,7 @@ section {
 .copyright_content div {
   font-size: 12px;
   font-weight: 600;
-  color: #685677;
+  color: #865c95;
 }
 .footer_nav_container {
   height: 52px;

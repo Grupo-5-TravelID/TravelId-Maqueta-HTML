@@ -231,6 +231,9 @@
     width: 200px;
     margin-right: 7px;
   }
+  .footer_logo .logo a img {
+    width: 24px;
+  }
   .hamburger i {
     font-size: 20px;
   }
