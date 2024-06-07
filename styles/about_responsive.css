@@ -88,6 +88,14 @@
 ************/
 
 @media only screen and (max-width: 991px) {
+  .textaca {
+    font-size: small;
+    align-items: center;
+  }
+  .textaa {
+    font-size: x-small;
+    align-items: center;
+  }
   .main_nav_container {
     display: none;
   }
@@ -133,6 +141,14 @@
   }
   .footer_nav_item {
     display: block;
+  }
+  .textaca {
+    font-size: medium;
+    align-content: center;
+  }
+  .textaa {
+    font-size: 14px;
+    align-content: center;
   }
 }
 
@@ -190,6 +206,14 @@
   }
   .stats_last {
     display: none;
+  }
+  .textaca {
+    font-size: small;
+    align-content: center;
+  }
+  .textaa {
+    font-size: small;
+    align-content: center;
   }
 }
 
@@ -331,6 +355,14 @@
   .footer_about_text {
     font-size: 13px;
   }
+  .textaca {
+    font-size: small;
+    align-content: center;
+  }
+  .textaa {
+    font-size: 12px;
+    align-content: center;
+  }
 }
 
 /************
@@ -361,6 +393,14 @@
   .milestone_counter {
     font-size: 36px;
   }
+  .textaca {
+    font-size: small;
+    align-items: center;
+  }
+  .textaa {
+    font-size: 11px;
+    align-items: center;
+  }
 }
 
 /************
@@ -368,4 +408,11 @@
 ************/
 
 @media only screen and (max-width: 400px) {
+  .textaca {
+    align-items: center;
+  }
+  .textaa {
+    font-size: 9px;
+    align-items: center;
+  }
 }
