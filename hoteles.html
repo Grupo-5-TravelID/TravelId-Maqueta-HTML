@@ -33,6 +33,7 @@
       type="text/css"
       href="styles/hoteles_responsive.css"
     />
+    <link rel="stylesheet" type="text/css" href="/styles/daterangepicker.css" />
   </head>
 
   <body>
@@ -168,6 +169,120 @@
         ></div>
         <div class="home_content">
           <div class="home_title">HOTELES</div>
+        </div>
+      </div>
+
+      <!-- Search Box -->
+
+      <div class="search_box">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div
+                class="search_box_container d-flex flex-row align-items-center justify-content-start"
+              >
+                <div class="search_form_container">
+                  <form action="#" id="search_form" class="search_form">
+                    <div
+                      class="d-flex flex-lg-row flex-column align-items-center justify-content-start"
+                    >
+                      <ul
+                        class="search_form_list d-flex flex-row align-items-center justify-content-start flex-wrap"
+                      >
+                        <li
+                          class="search_dropdown d-flex flex-row align-items-center justify-content-start"
+                        >
+                          <span>Destino</span>
+                          <i
+                            class="fa fa-chevron-down ml-auto"
+                            aria-hidden="true"
+                          ></i>
+                          <ul>
+                            <li>Check in item 1</li>
+                            <li>Check in item 2</li>
+                            <li>Check in item 3</li>
+                            <li>Check in item 4</li>
+                            <li>Check in item 5</li>
+                          </ul>
+                        </li>
+                        <li
+                          class="search_dropdown d-flex flex-row align-items-center justify-content-start"
+                        >
+                          <span>LLegada-Salida</span>
+                          <i
+                            class="fa fa-chevron-down ml-auto"
+                            aria-hidden="true"
+                          ></i>
+                          <ul>
+                            <li>
+                              <div
+                                class="col-sm-12 col-md-6 mb-3 mb-lg-0 col-lg-5"
+                              >
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  name="daterange"
+                                />
+                              </div>
+                            </li>
+                          </ul>
+                        </li>
+                        <li
+                          class="search_dropdown d-flex flex-row align-items-center justify-content-start"
+                        >
+                          <span>Huéspedes</span>
+                          <i
+                            class="fa fa-chevron-down ml-auto"
+                            aria-hidden="true"
+                          ></i>
+                          <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                          </ul>
+                        </li>
+                        <li
+                          class="search_dropdown d-flex flex-row align-items-center justify-content-start"
+                        >
+                          <span>Niños</span>
+                          <i
+                            class="fa fa-chevron-down ml-auto"
+                            aria-hidden="true"
+                          ></i>
+                          <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                          </ul>
+                        </li>
+                        <li
+                          class="search_dropdown d-flex flex-row align-items-center justify-content-start"
+                        >
+                          <span>Habitaciones</span>
+                          <i
+                            class="fa fa-chevron-down ml-auto"
+                            aria-hidden="true"
+                          ></i>
+                          <ul>
+                            <li>1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <button class="search_button">search</button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -392,30 +507,29 @@
               <div class="col-lg-4 col-sm-6 d-flex">
                 <div class="single-package-item">
                   <img
-                    src="images/Hoteles/Hotel Artemide 2.jpg"
+                    src="/images/Hoteles/Nobu hotel.jpg"
                     alt="Hotel Artemide"
                   />
                   <div class="single-package-item-txt">
                     <h3 class="d-block d-sm-none d-xl-block">
-                      Hotel Artemide<span class="pull-right">130€</span>
+                      Nobu Hotel<span class="pull-right">180€</span>
                     </h3>
                     <div class="d-none d-sm-block d-xl-none">
-                      <h3>Hotel Artemide</h3>
-                      <h4 class="text-dark">130€</h4>
+                      <h3>Nobu Hotel</h3>
+                      <h4 class="text-dark">180€</h4>
                     </div>
                     <div class="packages-para">
                       <p>
                         <span>
-                          <i class="fa fa-angle-right"></i> Roma, Italia
+                          <i class="fa fa-angle-right"></i> Ibiza, España
                         </span>
-                        <i class="fa fa-angle-right"></i> 4 estrellas
+                        <i class="fa fa-angle-right"></i> 5 estrellas
                       </p>
                       <p>
                         <span>
-                          <i class="fa fa-angle-right"></i> Servicios
-                          excepcionales
+                          <i class="fa fa-angle-right"></i> Lujo Moderno
                         </span>
-                        <i class="fa fa-angle-right"></i> Confort y lujo
+                        <i class="fa fa-angle-right"></i> Ambiente Vibrante
                       </p>
                     </div>
                     <!--/.packages-para-->
@@ -710,5 +824,10 @@
     <script src="plugins/colorbox/jquery.colorbox-min.js"></script>
     <script src="plugins/parallax-js-master/parallax.min.js"></script>
     <script src="js/blog_custom.js"></script>
+    <script src="js/moment.min.js"></script>
+    <script src="js/daterangepicker.js"></script>
+    <script src="js/Hoteles_dropdown.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
   </body>
 </html>
