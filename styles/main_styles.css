@@ -537,7 +537,7 @@ section {
   transform: none;
 }
 .hamburger i {
-  font-size: 24px;
+  font-size: 32px;
   color: #ffffff;
 }
 .hamburger:hover i {

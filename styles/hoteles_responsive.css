@@ -227,9 +227,7 @@
   .footer_logo .logo a img {
     width: 24px;
   }
-  .hamburger i {
-    font-size: 20px;
-  }
+
   .content_search svg {
     width: 20px;
     height: 20px;
@@ -286,7 +284,6 @@
     padding-top: 100px;
     padding-bottom: 40px;
   }
- 
 }
 
 /************

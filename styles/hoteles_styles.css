@@ -295,6 +295,15 @@ section {
   background: rgba(12, 58, 95, 0.9);
 }
 
+.main_nav_col {
+  height: 143px;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
+
 /*********************************
 3.2 Logo
 *********************************/
@@ -439,7 +448,7 @@ section {
   transform: none;
 }
 .hamburger i {
-  font-size: 24px;
+  font-size: 32px;
   color: #ffffff;
 }
 .hamburger:hover i {
